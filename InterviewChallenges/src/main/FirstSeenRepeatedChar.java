@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class FirstSeenRepeatedChar {
-    
+
     public static char firstSeenDouble(String chars){
         HashMap<Character,Integer> seenChars = new HashMap<>();
         char[] charArr = chars.toCharArray();
